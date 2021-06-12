@@ -11,7 +11,6 @@ public class HelloController {
 	@Get
 	@Produces(MediaType.TEXT_PLAIN)
 	public String hello() {
-		System.out.println("hello controller");
 		return "Hello Madhusudhan";
 	}
 }
